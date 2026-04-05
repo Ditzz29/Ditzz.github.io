@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Point M Gamers - Topup Termurah Dana Pelajar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #0b0e14;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .hero-gradient {
+            background: linear-gradient(180deg, rgba(29, 78, 216, 0.2) 0%, rgba(11, 14, 20, 1) 100%);
+        }
+        .card-gaming {
+            background: #161b22;
+            border: 1px solid #30363d;
+            transition: 0.3s;
+        }
+        .card-gaming:hover {
+            border-color: #3b82f6;
+            transform: translateY(-5px);
+        }
+        .btn-primary {
+            background-color: #3b82f6;
+            transition: 0.3s;
+        }
+        .btn-primary:hover {
+            background-color: #2563eb;
+            box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="p-4 border-b border-gray-800 bg-[#0b0e14] sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <img src="logo-pmg.jpg" alt="PMG Logo" class="h-10 w-10 rounded shadow-lg">
+                <span class="font-bold text-xl tracking-wider">POINT <span class="text-blue-500">M</span> GAMERS</span>
+            </div>
+            <div class="hidden md:flex gap-6 text-sm font-medium">
+                <a href="#" class="hover:text-blue-500">Home</a>
+                <a href="#" class="hover:text-blue-500">Daftar Harga</a>
+                <a href="#" class="hover:text-blue-500">Lacak Pesanan</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-16 px-4 text-center">
+        <img src="logo-pmg.jpg" alt="Logo" class="mx-auto h-32 mb-6 rounded-xl shadow-2xl border-2 border-blue-500">
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-2">POINT M GAMERS</h1>
+        <p class="text-blue-400 text-lg md:text-xl font-semibold tracking-widest uppercase">Topup Termurah Dana Pelajar</p>
+        <p class="mt-4 text-gray-400 max-w-lg mx-auto">Solusi top up game favoritmu dengan harga yang ramah di kantong pelajar. Cepat, aman, dan terpercaya.</p>
+    </section>
+
+    <!-- Game List -->
+    <section class="container mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold mb-8 border-l-4 border-blue-500 pl-4">Pilih Game</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+            
+            <!-- Game Item (Contoh: Free Fire) -->
+            <div class="card-gaming rounded-2xl overflow-hidden p-4 text-center cursor-pointer">
+                <div class="bg-gray-700 h-32 w-full rounded-xl mb-4 bg-cover" style="background-image: url('https://placeholder.com/ff-banner.jpg');"></div>
+                <h3 class="font-bold text-sm uppercase">Free Fire</h3>
+                <p class="text-xs text-gray-400 mt-1">Garena</p>
+                <button class="btn-primary w-full mt-4 py-2 rounded-lg text-xs font-bold">TOP UP</button>
+            </div>
+
+            <!-- Tambahkan game lainnya di sini -->
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#07090d] py-10 border-t border-gray-800">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-500 text-sm">© 2026 PointMGamers.com - All Rights Reserved.</p>
+            <div class="flex justify-center gap-4 mt-4">
+                <span class="text-xs px-3 py-1 bg-gray-800 rounded text-gray-400">Tiktok @pointmgamers</span>
+          
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
